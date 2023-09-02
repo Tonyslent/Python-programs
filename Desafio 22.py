@@ -1,0 +1,6 @@
+nome = str(input('Qual o seu \033[33mnome completo\033[m: '))
+nome1 = nome.split()
+print('seu nome em \033[32mletras maiusculas\033[m é: \033[1;40m{}\033[m'.format(nome.upper()))
+print('seu nome em \033[32mletras minusculas\033[m é: \033[1;40m{}\033[m'.format(nome.lower()))
+print('Seu nome tem \033[35m{} letras\033[m \033[31msem contar\033[m os espaços'.format(len(nome)-nome.count(' ')))
+print('Seu \033[32mprimeiro nome\033[m tem \033[35m{} letras\033[m'.format(len(nome1[0])))

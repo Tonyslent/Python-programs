@@ -1,0 +1,13 @@
+print('\033[1;4;33mTabuada\033[m')
+x = int(input('\033[1;31mMe diga um número e eu te direi a tabuada dela:\033[m \033[36m'))
+
+print('Um     = ',x * 1)
+print('Dois   = ',x * 2)
+print('Três   = ',x * 3)
+print('Quatro = ',x * 4)
+print('Cinco  = ',x * 5)
+print('Seis   = ',x * 6)
+print('Sete   = ',x * 7)
+print('Oito   = ',x * 8)
+print('Nove   = ',x * 9)
+print('Dez    = ',x * 10)

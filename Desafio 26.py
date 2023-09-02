@@ -1,0 +1,5 @@
+palavra = str(input('Digite aqui sua frase eu direi a você quantas vezes a letra "A" aparece, e em qual casa ela começa e acaba: '))
+a = palavra.count('a')
+a1 = palavra.find('a')
+a2 = palavra.rfind('a')
+print(f'A sua frase repete a letra "A" {a} vezes, começa no {a1+1}° e termina no(a) {a2+1}° palavra')
